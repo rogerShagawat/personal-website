@@ -1,11 +1,25 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: monospace;
-    font-size: large;
+  background-color: #000;
+  color: #fff;
+  font-family: monospace;
+  font-size: large;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    min-width: 500px;
+    margin: 0px;
+}
+.nav-elem {
+    padding-left: 10px;
+}
+
+#navbar {
+    width: 100%;
+    padding: 1%;
 }
